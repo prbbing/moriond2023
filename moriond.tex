@@ -4,6 +4,8 @@
 
 \documentclass{moriond}
 
+\usepackage{subcaption}
+\captionsetup{compatibility=false}
 
 \bibliographystyle{unsrt}    
 % for BibTeX - sorted numerical labels by order of
@@ -51,23 +53,104 @@
 %\newcommand{\Photo}{}
 
 \begin{document}
-\vspace*{4cm}
 \title{Highlights of ATLAS Search Results}
-
 
 \author{Bingxuan Liu, on behalf of the ATLAS Collaboration}
 
 \address{Department of Physics, Simon Fraser University, Vancouver, Canada}
 
 \maketitle\abstracts{Searching for beyond standard model (BSM) physics has been
-one of the primary goals of the LHC physics program. The LHC delivered 140
-$\mathrm{fb}^{-1}$ data of high quality in Run 2, allowing both the ATLAS and
-CMS collaborations to expand and improve their search programs. The recent
-development in detector perforamnce and analysis techniques have brought
-significant boosts to the search sensitivities. In this article, highlights of
-recent ATLAS search results are discussed and summarized.}  
+one of the primary goals of the Large Hadron Collider (LHC) physics program.
+The LHC delivered 140 $\mathrm{fb}^{-1}$ data of high quality in Run 2,
+allowing both the ATLAS and CMS collaborations to expand and improve their
+search programs. The recent development in detector perforamnce and analysis
+techniques have brought significant boosts to the search sensitivities. In this
+article, highlights of recent ATLAS search results are discussed and
+summarized.}  
 
 \section{Introduction}
+
+Many mysteries in particle physics, such as the hierarchy problem, the origin
+of dark matter (DM) and neutrino masses are still waiting for answers or hints
+from the Large Hadron Collider (LHC). ATLAS is a general purpose detector at
+the LHC that is capable of searching for beyond standard model (BSM) physics
+via various approaches. ATLAS has conducted a comprehensive set of searches in
+the past years, excluding the majority part of the phase space. As a
+consequence, recent ATLAS searches are featured with applying cutting-edge
+analysis techniques or detector performance development, filling the gaps
+between explored regions of phase space and considering challenging, completely
+uncovered signatures.      
+
+\section{Full Run 2 Upgrades}
+
+The detector performance in ATLAS is continuously improving, thanks to the
+diligent work carried out in the relevant areas. For instance, the performance
+of bottom- and top-tagging has advance significantly in the past few years. In
+addition, the application of machine learning techniques have become very
+mature in physics analyses, enhancing the sensitivities further. Even though
+previous analyses have explored similar final states, taking advantage of the
+above facts, the full Run 2 upgrades of the those searches will push the
+exclusion limits further.\\
+
+In the full Run 2 ATLAS vector-like quark search, the top partner masses with
+50\% decay width are excluded up to 1975 GeV for the singlet representation,
+considering $B(T\rightarrow Wb)=0.5$ (~\ref{fig:limits}~\subref{fig:vlq}).
+Comared to the previous analysis probing the same final state, this analysis
+adopted an updated top-tagger and more optimized selections.        
+
+\begin{figure}[htbp!]
+     \centering
+     \begin{subfigure}[b]{0.45\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{VLQ}
+         \caption{}
+         \label{fig:vlq}
+     \end{subfigure}
+     \begin{subfigure}[b]{0.45\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{RHN}
+         \caption{}
+         \label{fig:rhn}
+     \end{subfigure}
+        \caption{Three simple graphs}
+        \label{fig:diagrams}
+\end{figure}
+
+\section{Filling the Gap}
+
+There have been many BSM models proposed by the theory community in the past
+decades. The number of free parameters in those models is so vastly large that
+a single search can only probe a subset of the parameter space, a particular
+combination of masses and couplings. Naturally, there are gap between exisitng
+searches, and they need to be explored. The gap regions are usually hard to
+probe so that special analysis strategies are essential.  
+
+
+\begin{figure}[htbp!]
+     \centering
+     \begin{subfigure}[b]{0.32\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{bbyy}
+         \caption{}
+         \label{fig:vlq}
+     \end{subfigure}
+     \begin{subfigure}[b]{0.32\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{micro}
+         \caption{}
+         \label{fig:rhn}
+     \end{subfigure}
+     \begin{subfigure}[b]{0.32\textwidth}
+         \centering
+         \includegraphics[width=\textwidth]{excited}
+         \caption{}
+         \label{fig:rhn}
+     \end{subfigure}
+        \caption{Three simple graphs}
+        \label{fig:diagrams}
+\end{figure}
+
+\section{Challenging Signatures}
 
 \section*{References}
 
